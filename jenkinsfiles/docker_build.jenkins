@@ -32,7 +32,7 @@ pipeline {
             steps {
                 echo " ============== start pushing image =================="
                 sh '''
-                docker push okda/mysuperimage:latest
+                docker push okda/okda:latest
                 '''
             }
         }
