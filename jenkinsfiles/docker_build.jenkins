@@ -14,7 +14,7 @@ pipeline {
             steps {
                 echo " ============== start building image =================="
                 dir ('docker/toolbox') {
-              	    sh 'docker build -t mysuperimage:v3 . '
+              	    sh 'docker build -t okda/mysuperimage:latest . '
             }
         }
     }
